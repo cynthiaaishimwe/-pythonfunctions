@@ -21,3 +21,8 @@ def remainder(i,j):
 def substractions(k,l):
    difference = k-l
    return difference
+
+def add(c,d):
+   sum = c+d
+   return sum
+   
