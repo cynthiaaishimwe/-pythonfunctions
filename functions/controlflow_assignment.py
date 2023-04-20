@@ -19,11 +19,18 @@ def sum_even_numbers(numbers):
           if n % 2 == 0:
               num += n
      print(num)
+
 # Write a function that takes any two integers as input, and 
 # prints the sum of all the numbers between the two integers 
 # (inclusive) that are divisible by 3.
 
-
+def two_nums(a,b):
+    numbs = 0
+    x = range(a,b)
+    for n in x:
+        if n % 3 == 0:
+            numbs += n
+    print(numbs)
 
 # Write a function that takes an integer argument 
 # and prints "Prime" if the number is prime, 
