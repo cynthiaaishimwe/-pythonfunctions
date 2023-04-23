@@ -13,7 +13,7 @@ def even_number():
 # and prints the sum of all the even numbers in the list.
 
 
-def sum_even_numbers(numbers):
+def sum_numbers(numbers):
      num = 0
      for n in numbers:
           if n % 2 == 0:
