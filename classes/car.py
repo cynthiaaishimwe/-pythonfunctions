@@ -1,9 +1,9 @@
 
 class Car:
     tires:4
-    model:"Mustang"
-    brand:"Ford"
-    color:"Grey"
+    model="Mustang"
+    brand="Ford"
+    color="Grey"
 
 
     

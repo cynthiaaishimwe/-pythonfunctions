@@ -7,7 +7,7 @@ class Student:
     last_name = "chege"
     age = 20
     country = "Congo"
-    # yearofbirth = 1994
+    
 
 class Student:
     school = "Akirachix"
@@ -19,7 +19,7 @@ class Student:
         self.first_name = first_name
         self.last_name = last_name
         self.country = country
-        # self.yearofbirth= yearofbirth
+       
 
     def greet_student(self):
         return f"hello {self.name}welcome to{self.school}proudly{self.nationality}"
@@ -27,8 +27,14 @@ class Student:
     def  show_full_name(self):
         return f"I am {self.first_name} {self.last_name}"
     
-    # def year_of_birth(self):
-    #     return f"{self.age}"
+    def year_of_birth(self):
+       return f"{self.age}"
+    
+
+    def show_initials(self):
+        return f"{self.first_name[0]} {self.last_name[0]}"
+
+    
 
 
 

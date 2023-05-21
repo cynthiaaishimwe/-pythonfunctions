@@ -1,10 +1,10 @@
 
 class Fruit:
-
-    color:"red"
-    type:"citrus"
-    size:"medium"
-    shape:"oval"
+ 
+    color=" red "
+    type="citrus"
+    size="medium"
+    shape="oval"
 
 def __init__(self, color, type, size,shape):
        
